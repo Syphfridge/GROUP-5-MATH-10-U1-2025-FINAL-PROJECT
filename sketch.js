@@ -1083,7 +1083,7 @@ function resetDefaults() {
   subsidyCheckbox.checked(false);
 
   ceilingSlider.value(8);
-  floorSlider.value(18);
+  floorSlider.value(16);
   taxSlider.value(7);
   subsidySlider.value(7);
 
@@ -1109,7 +1109,7 @@ function applyScenario() {
       break;
     case "floor":
       floorCheckbox.checked(true);
-      floorSlider.value(18);
+      floorSlider.value(16);
       break;
     case "tax":
       taxCheckbox.checked(true);
